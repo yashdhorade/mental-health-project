@@ -1,0 +1,63 @@
+#Appointment{
+    width:100%;
+    height:100vh;
+    background-image:url(/images/appoedited.png);
+    background-size:cover;
+    background-position: center;
+    font-size: 30px;
+    padding:100px 0px 0px 100px;
+    margin-bottom:100px;
+    
+}
+#Appointment h1{
+    color:white;
+    font-size:3em;
+    line-height: 80px;
+    font-weight: 450;
+    
+}
+#Appointment #happy{
+    color:transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(233, 252, 20);
+    
+}
+#Appointment #health{
+    color:transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(43, 252, 20);
+    
+}
+#Appointment p{
+    margin-top: 20px;
+    color:white;
+    font-size: 0.9em;
+    opacity:0.5
+    
+}
+#Appointment button{
+    margin-top:50px;
+    height:40px;
+    width:150px;
+    font-size:0.5em;
+    border:none;
+    color:rgba(16, 16, 177, 0.862);
+    font-weight: 600;
+    border-radius:2px;
+    background-color:rgba(255, 255, 255, 0.286);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.723);
+}
+@media (max-width:600px) {
+    #Appointment  {
+        font-size:20px;
+
+        
+    }
+    #Appointment h1{
+        line-height: 60px;
+    }
+    #Appointment p{
+        opacity:0.8;
+    }
+}
+
